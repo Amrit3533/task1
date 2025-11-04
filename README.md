@@ -89,11 +89,12 @@ The website consists of three main pages — **Home**, **About**, and **Contact*
 
 ## Project Links
 
-- **GitHub Repository:** 
-- **Live Preview:**  
+- **GitHub Repository:** https://github.com/Amrit3533/task1
+- **Live Preview:**  https://amrit3533.github.io/task1/
 
 ---
 
 **Author:** Amrit Kumar  
 **Year:** 2025  
 **Role:** Full Stack Developer (Intern)
+

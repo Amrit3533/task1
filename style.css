@@ -1,0 +1,74 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact-info h5 {
+  margin-bottom: 0.5rem;
+}
+
+.nav-link {
+  color: #74b27b;
+}
+.nav-link:hover{
+    color: #e96950;
+}
+.active {
+  background-color: #74b27b !important;
+}
+.btn-custom {
+  background-color: #74b27b;
+  color: #fff;
+}
+.greenCustom {
+  color: #74b27b;
+}
+.hero-section {
+  background: #facf55;
+  color: black;
+  border-radius: 1rem;
+}
+.amrit-color {
+  color: #e96950;
+}
+.amrit-bg-color {
+  background-color: #e96950;
+}
+
+.tech-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.hero-section img {
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-section {
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
+
+footer h5 {
+  color: #74b27b;
+}

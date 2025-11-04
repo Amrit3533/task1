@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amrit Kumar | Portfolio</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="d-flex flex-wrap justify-content-center py-3 px-3 mb-4 border-bottom bg-gradient bg-light shadow-sm">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-person-badge-fill" viewBox="0 0 16 16">
+                <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1z" />
+            </svg>
+            &nbsp;
+            <span class="fs-4 fw-bold greenCustom">Amrit Kumar</span>
+        </a>
+        <ul class="nav nav-pills align-items-center">
+            <li class="nav-item "><a href="index.html" class="nav-link active px-3" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-3">Contact</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link px-3">About</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="container hero-section p-5 mb-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-md-5 text-center">
+                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1758130611/1757824549240_t692y1.png"
+                    alt="Amrit Kumar" class=" rounded-circle shadow-lg" width="400" height="400" />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I'm <span class="amrit-color">Amrit Kumar</span></h1>
+                <p class="lead">
+                    I'm a passionate <b>Full Stack Developer</b> who loves building modern, responsive, and dynamic web
+                    applications. Explore my projects and see how I bring ideas to life using the MERN stack.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+                    <a href="contact.html" class="btn btn-warning btn-lg px-4 me-md-2">Hire Me</a>
+                    <a href="#" class="btn btn-outline-light btn-lg px-4">View Resume</a>
+
+                </div>
+                <button type="button" class="btn btn-outline-primary btn-lg mt-3 ms-2" data-bs-toggle="modal"
+                    data-bs-target="#certificateModal">
+                    <i class="bi bi-patch-check-fill me-2"></i>View My Certificates
+                </button>
+                <div class="row mt-5">
+                    <div class="col-4 text-center">
+                        <h3 class="amrit-color  fw-bold counter" data-target="500">15+</h3>
+                        <small>Project Completed</small>
+                    </div>
+                    <div class="col-4 text-center">
+                        <h3 class="amrit-color  fw-bold counter" data-target="95">5+</h3>
+                        <small>Courses Completed</small>
+                    </div>
+                    <div class="col-4 text-center">
+                        <h3 class="amrit-color  fw-bold counter" data-target="50">2026</h3>
+                        <small>Graduating</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Section -->
+    <div class="container feature-section text-center py-5 mb-5">
+        <div class="col-md-10 mx-auto">
+            <h2 class="fw-bold mb-3 greenCustom">What I Do</h2>
+            <p class="text-muted mb-4">Turning ideas into interactive, scalable, and performance-driven web experiences
+                using
+                the latest technologies.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title amrit-color fw-bold">Frontend Development</h5>
+                            <p class="card-text">Building clean and responsive user interfaces using React, Bootstrap,
+                                and Tailwind.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title amrit-color fw-bold">Backend Development</h5>
+                            <p class="card-text">Developing secure and efficient APIs using Node.js, Express.js, and
+                                MongoDB.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title amrit-color fw-bold">Full Stack Integration</h5>
+                            <p class="card-text">Combining powerful backend logic with interactive frontend experiences
+                                seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExample" class="carousel slide mb-5 container" data-bs-ride="carousel">
+        <h2 class="fw-bold mb-3 greenCustom text-center  mb-1">My Projects</h2>
+        <div class="carousel-inner rounded-3 shadow-sm">
+            <div class="carousel-item active">
+                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762243703/Screenshot_2025-11-04_132940_erzmjn.png"
+                    class="d-block w-100" alt="Project Image">
+                <div class="card-body">
+                    <p class="card-text text-center">Discover your next adventure with TravelWithAmrit! This full-stack
+                        MERN project offers a comprehensive platform for Browse and managing travel listings, from
+                        breathtaking destinations to cozy accommodations. Plan your perfect trip with ease.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762243701/Screenshot_2025-11-04_132920_jqfmml.png"
+                    class="d-block w-100" alt="Project Image">
+                <div class="card-body">
+                    <p class="card-text text-center">A responsive job search portal frontend built with HTML, Bootstrap
+                        5, and vanilla JavaScript, featuring live search and filtering.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762243699/Screenshot_2025-11-04_132623_ydm0nl.png"
+                    class="d-block w-100" alt="Project Image">
+                <div class="card-body">
+                    <p class="card-text text-center"> StayAhead, a modern and responsive website for a student
+                        technology training platform. It is designed to offer B.Tech students hands-on internship
+                        programs in frontend web development, focusing on practical skills and real-world projects. The
+                        entire UI is built using HTML, vanilla JavaScript, and Bootstrap 5.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762243700/Screenshot_2025-11-04_132812_joaz1y.png"
+                    class="d-block w-100" alt="Project Image">
+                <div class="card-body">
+                    <p class="card-text text-center">A lead Management System built with all the backend functionalities
+                        of performing CRUD Operations with cloud database.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Certificates Modal -->
+    <div class="modal fade" id="certificateModal" tabindex="-1" aria-labelledby="certificateModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content shadow-lg">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="certificateModalLabel">
+                        <i class="bi bi-award-fill me-2"></i>My Certifications
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-light">
+                    <div class="row text-center g-4">
+                        <!-- Certificate 1 -->
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm">
+                                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762247128/Screenshot_2025-11-04_142740_i0funo.png"
+                                    class="card-img-top rounded-top" alt="Web Development Certificate">
+                                <div class="card-body">
+                                    <h6 class="card-title fw-bold text-primary">ETF Certification</h6>
+                                    <p class="text-muted small mb-2">Issued by ETF</p>
+                                    <a href="https://cert.efset.org/5gdFck" target="_blank"
+                                        class="btn btn-sm btn-outline-success">
+                                        <i class="bi bi-box-arrow-up-right"></i> View Certificate
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Certificate 2 -->
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm">
+                                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762247128/Screenshot_2025-11-04_142911_r2u75h.png"
+                                    class="card-img-top rounded-top" alt="JAVA Certificate">
+                                <div class="card-body">
+                                    <h6 class="card-title fw-bold text-primary">JAVA Certification</h6>
+                                    <p class="text-muted small mb-2">Issued by IBM</p>
+                                    <a href="https://www.coursera.org/account/accomplishments/verify/IFN9KPODDLXY?utm_product=course" target="_blank"
+                                        class="btn btn-sm btn-outline-success">
+                                        <i class="bi bi-box-arrow-up-right"></i> View Certificate
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Certificate 3 -->
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm">
+                                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762247129/Screenshot_2025-11-04_143057_atms2u.png"
+                                    class="card-img-top rounded-top" alt="Backend Development Certificate">
+                                <div class="card-body">
+                                    <h6 class="card-title fw-bold text-primary">Backend Development Certificate</h6>
+                                    <p class="text-muted small mb-2">Issued by Coursera</p>
+                                    <a href="https://www.coursera.org/account/accomplishments/verify/K385RKC65ZWT?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank"
+                                        class="btn btn-sm btn-outline-success">
+                                        <i class="bi bi-box-arrow-up-right"></i> View Certificate
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Certificate 4 -->
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm">
+                                <img src="https://res.cloudinary.com/amritsingh/image/upload/v1762247129/Screenshot_2025-11-04_143348_tmr6dl.png"
+                                    class="card-img-top rounded-top" alt="Software Engineering Certificate">
+                                <div class="card-body">
+                                    <h6 class="card-title fw-bold text-primary">Software Engineering Certificate</h6>
+                                    <p class="text-muted small mb-2">Issued by Coursera</p>
+                                    <a href="https://media.geeksforgeeks.org/courses/certificates/636d9d552a3ff292fe20a391abddecb9.pdf" target="_blank"
+                                        class="btn btn-sm btn-outline-success">
+                                        <i class="bi bi-box-arrow-up-right"></i> View Certificate
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md mb-3">
+                    <h5 class="fw-bold">Amrit Kumar</h5>
+                    <small class="d-block text-muted">© 2025 All Rights Reserved</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Navigation</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="about.html">About</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Social</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">LinkedIn</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">GitHub</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
